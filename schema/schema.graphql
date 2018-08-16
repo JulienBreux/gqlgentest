@@ -1,0 +1,7 @@
+type ObjectReturned {
+    name: String
+}
+
+type Query {
+    Get(name: String): ObjectReturned
+}
